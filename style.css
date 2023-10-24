@@ -1,0 +1,319 @@
+.signup-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #cccccc00;
+  background: linear-gradient(to bottom, rgb(188,187,187,0.2) 45%,rgb(0,0,0) 88%);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  background-color: transparent;
+  padding: 10px 50px;
+  border:none ;
+  border-bottom: 5px solid #000000;
+}
+
+button {
+  background-color: #ababab;
+  color: #000000b0;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease ;
+}
+
+button:hover {
+    background-color:#D6FD51;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    padding:1% ;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 47.4%, rgba(0, 0, 0, 0.00) 100%);
+} 
+.logo{
+    font-family: 'zen dots';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, #030303 -6.33%, #D6FD51 103.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 50px;
+}
+.nav1{
+	display: flex;
+    justify-content: space-between;
+}
+.nav1 a{
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+	padding: 10px 22px;
+	border-radius: 4px;
+	transition: ease .40s;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+nav ul{
+    display: flex;
+
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-bottom: 60px;
+}
+.nav1 .ins{
+    color: black;
+    width: 150px;
+    height: 40px;
+    box-shadow: #3c3c3c;
+    border-radius: 30px;
+    background: #D6FD51;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 50px;
+    transition: transform 0.3s ease;
+}
+.nav1 .ins:hover{
+transform: scale(1.1);
+}
+.b .ps {
+color: #FFF;
+width: 50%;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.58);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    
+
+}
+.a h1{
+color: rgba(0, 0, 0, 1);
+text-align: center;
+font-family: Nico Moji;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+box-shadow: #3c3c3c;
+margin-top: 1.5%;
+opacity: 0.5;
+
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+.lg1{
+    font-family: 'zen dots';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, #030303 -6.33%, #D6FD51 103.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    display: flex;
+    justify-content: center;
+}
+.AAA{
+    font-size: 60px;
+    color: #030303;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+    font-family: Nico Moji;
+
+}
+.elder{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    flex-wrap: wrap;
+    
+    
+}
+.f2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.f2 h3{
+    
+    color: #030303;
+    box-shadow: #3a3a3a;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+    font-family: 'Metrophobic';
+}
+.f2 p{
+    font-size: 20px;
+    color: #0303034c;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+    font-family: 'Metrophobic';
+}
+
+#password{
+    border-color: #e2e1e1;
+    background-color: transparent;
+    color: #FFF;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000;
+}
+    
+.icones{
+    display: flex;
+    align-items: center
+    ;
+}
+footer p{
+    color: #FFF;
+}
+body{
+    width: 100%;
+	background-size: cover;
+	background-position: right;
+    background: linear-gradient(to bottom, rgb(188,187,187) 45%,rgb(0,0,0) 80%);
+}
+/* Vos styles CSS actuels */
+
+/* Styles pour le menu burger (à ajouter) */
+.burger-menu {
+    display: none;
+    background: linear-gradient(90deg, #030303 -6.33%, #D6FD51 103.92%);
+    color: #fff;
+    position: fixed;
+    top: 12%;
+    right: -250px; /* Caché par défaut */
+    width: 220px;
+    height: 200px;
+    border-radius: 5px;
+    border: 5px solid white;
+    transition: left 0.3s;
+    z-index: 1000;
+}
+
+.burger-links {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.burger-links li {
+    margin: 10px 0;
+}
+
+.burger-links a {
+    font-size: 20px;
+    color: #000000;
+    padding: 0 20px;
+    text-decoration: none;
+    border-left:2px solid #fff;
+    border-bottom:2px solid #fffefe;
+    transition: background-coler 0.25s ease;
+}
+.burger-links a:hover {
+    background-color: floralwhite;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+    z-index: 1001;
+}
+
+.menu-icon.active + .burger-menu {
+    right: 0; /* Affiche le menu burger lorsque le bouton est cliqué */
+}
+.burger-menu.active {
+    right: 0;
+}
+  
+  /* Styles pour les écrans étroits (responsive) */
+  @media screen and (max-width: 768px) {
+    .nav1 {
+      display: none;
+    }
+    
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+    
+    .burger-menu {
+      display: block;
+    }
+    
+    .burger-links {
+      display: block;
+    }
+    .signup-container{
+        width: 340px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  

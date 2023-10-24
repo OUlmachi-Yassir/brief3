@@ -1,0 +1,649 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    padding:1% ;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 47.4%, rgba(0, 0, 0, 0.00) 100%);
+} 
+.logo{
+    font-family: 'zen dots';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, #030303 -6.33%, #D6FD51 103.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 50px;
+}
+.nav1{
+	display: flex;
+    justify-content: space-between;
+}
+.nav1 a{
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+	padding: 10px 22px;
+	border-radius: 4px;
+	transition: ease .40s;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+
+.home{
+    /* position: relative; */
+    background:url(./ph/auto-construction-formation-jeune-culturiste-caucasien-fond-studio-neon-modele-masculin-muscle-ballon-concept-sport-musculation-mode-vie-sain-mouvement-action.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	/* display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	align-items: center; */
+}
+nav ul{
+    display: flex;
+
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-bottom: 60px;
+}
+.nav1 .ins{
+    color: black;
+    width: 150px;
+    height: 40px;
+    box-shadow: #3c3c3c;
+    border-radius: 30px;
+    background: #D6FD51;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 50px;
+    transition: transform 0.3s ease;
+}
+.nav1 .ins:hover{
+transform: scale(1.1);
+}
+.b .ps {
+color: #FFF;
+width: 600px;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.58);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    
+
+}
+.a h1{
+color: rgba(0, 0, 0, 1);
+text-align: center;
+font-family: Nico Moji;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+box-shadow: #3c3c3c;
+margin-top: 1.5%;
+opacity: 0.5;
+
+}
+button{
+    background-color: rgba(214, 253, 81, 1);
+    padding: 5px;
+    background-color: rgba(214, 253, 81, 1);
+    font-family: Jomhuria;
+    width: 150px;
+    border-radius: 20px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.58);
+    font-size: 30px;
+    border: none;
+    transition: transform 0.3s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.a{
+  display:flex;
+  flex-direction: column;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  height: 200px; /* Hauteur souhaitée */
+}
+.a{
+    margin-top: 3%;
+}
+body{
+    background: linear-gradient(to bottom, rgb(188,187,187) 45%,rgb(0,0,0) 88%);}
+.home2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    transition: transform 0.4s ease;
+}
+img:hover{
+  transform: scale(1.1);
+}
+.lg1{
+    font-family: 'zen dots';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, #030303 -6.33%, #D6FD51 103.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 100px;  
+    display: flex;
+    justify-content: center;
+}
+.text1{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding: 1%;
+}
+.img1{
+    width: 35%;
+    height: 25%;
+    margin: auto;
+    position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.67);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170.9%; /* 82.032px */
+    letter-spacing: 0.96px;
+    margin-top: 50px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+    
+}
+
+.classes{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.classes .Yoga{
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    box-shadow: #FFF;
+}
+.Yoga1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Yoga1 h4{
+    color: #3c3c3c;
+    font-size: 50px;
+}
+.st{
+    display: flex;
+    align-items: center;
+}
+.btn1E2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+
+}
+.btn1E2:hover{
+transform: scale(1.1);
+}
+.image-container {
+    position: relative;
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    
+    transform: translate(-50%, -50%);
+     /* Pour centrer le texte horizontalement */
+    color: #fff; /* Couleur du texte, ajustez selon vos besoins */
+
+
+  }
+  .xxx1{
+    font-size: 15px;
+    color: #030303;
+    font-family: 'Outfit';
+  }
+  .xxx2{
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Outfit';
+  
+  }
+  .imgcn{
+    height: 40px;
+  }
+  .train{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .instruct{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0% 5% 0% 5%;
+  }
+  .train img{
+
+    height: 60%;
+  }
+.train{
+    color: #fff;
+    width: 250px;
+    height:500px ;
+}
+.imgapp{
+    display: flex;
+
+}
+.imgapp a img{
+    height: 60%;
+    width: 60%;
+    border-radius: 5px;
+    border: 3px solid #5e5e5e;
+}
+.vdo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-flow: row wrap ;
+}
+.download h1{
+    font-size: 48px;
+    color: #FFF;
+}
+.download p{
+    color: #d9d9d9;
+
+}
+.hhh{
+    display: flex;
+    justify-content: center;
+    color: rgba(124, 124, 124, 0.952);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170.9%; /* 82.032px */
+    letter-spacing: 0.96px;
+    margin-top: 20px;
+}
+.com1{
+color: #fff;
+background: #3c3c3c;
+border-radius: 2px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+    }
+    .com1 p{
+        width: 60%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .com1 button{
+    background-color: rgb(188, 188, 188);
+    padding: 5px;
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.58);
+    font-size: 30px;
+    border: none;
+    }
+.moraba{
+display: grid;
+grid-template-columns: auto;
+gap: 20px;
+text-align: center;
+height: 20%; width: 90%px;
+margin-bottom: 20px;}
+.com2{
+    color: #fff;
+    background: #3c3c3c;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .com2 p{
+        width: 60%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .com2 button{
+        background-color: rgb(188, 188, 188);
+        padding: 5px;
+        width: 50%;
+        border-radius: 2px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.58);
+        border: none;
+        }
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+.feed:hover{
+    transform: scale(1.1);
+    box-shadow:0px 0px 10px 2px #8b8b8b82;
+}
+.feed p{
+    color: #FFF;
+    font-size:25px;
+    width: 100%;
+}
+.ellip{
+    display: flex;
+
+}
+.fdbk{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icones{
+    display: flex;
+    align-items: center
+    ;
+}
+footer p{
+    color: #FFF;
+}
+.AAA{
+    font-size: 60px;
+    color: #030303;
+    box-shadow: #fffdfd;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding: 1%;
+    font-family: 'Metrophobic';
+
+}
+
+.gal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gal1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px ;
+    flex-wrap: wrap;
+}
+.gal1 img{
+    height: 220px;
+    width: 400px;
+}
+.programme{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.programme .prcn{
+    display: flex;
+    flex-direction: column;
+}
+.programme .prcn button{
+  background-color: #030303;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  box-shadow:0px 0px 10px 2px #272727b8;
+  padding-right: 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Vos styles CSS actuels */
+
+/* Styles pour le menu burger (à ajouter) */
+.burger-menu {
+    display: none;
+    background: linear-gradient(90deg, #030303 -6.33%, #D6FD51 103.92%);
+    color: #fff;
+    position: fixed;
+    top: 10%;
+    right: -250px; /* Caché par défaut */
+    width: 220px;
+    height: 200px;
+    border-radius: 5px;
+    transition: left 0.3s;
+    z-index: 1000;
+}
+
+.burger-links {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.burger-links li {
+    margin: 10px 0;
+}
+
+.burger-links a {
+    font-size: 20px;
+    color: #000000;
+    padding: 0 20px;
+    text-decoration: none;
+    border-bottom:2px solid #fffefe;
+    transition: background-coler 0.25s ease;
+}
+.burger-links a:hover {
+    background-color: floralwhite;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+    z-index: 1001;
+}
+
+.menu-icon.active + .burger-menu {
+    right: 0; /* Affiche le menu burger lorsque le bouton est cliqué */
+}
+.burger-menu.active {
+    right: 0;
+}
+/* /------------------------------------------PLAN-------------/ */
+
+.plan {
+  min-height: 100vh;
+}
+.plan-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.plan h1 {
+  color:linear-gradient(90deg, #030303 -6.33%, #fefffa 103.92%); 
+  font-family: Metrophobic ;
+  font-size: 4em;
+  text-align: center;
+
+}
+
+.first-plan {
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  box-shadow:0px 2px 30px 5px #030303;
+}
+
+.first-plan:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease;
+  border:4px solid #D6FD51;
+}
+
+
+.first-plan h1 {
+  margin-bottom: 5px;
+  color:  #D6FD51 ;
+}
+.first-plan .card h2 {
+  color: rgb(94, 94, 94);
+  font-size: 2.5em;
+  font-family: 'Zen Dots';
+  text-align: center;
+  padding-top: 10px;
+}
+.first-plan .card h6 {
+  color: white;
+  font-size: 2em;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.first-plan .card p {
+  color: rgba(253, 250, 250, 0.792);
+  font-size: 1.5em;
+  font-family: 'Outfit' ;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.card button {
+    padding: 5px;
+    background-color: rgba(213, 253, 81, 0.87);
+    font-family: zen dots;
+    width: 250px;
+    border-radius: 20px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.58);
+    font-size: 20px;
+    border: none;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+.hhh1{
+    text-align: center;
+    font-size : 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #D6FD51;
+}
+.hhh1 span{
+    color: #fefffa;
+}
+
+.card button a {
+  color: rgba(0, 0, 0, 0.639);
+}
+  
+  /* Styles pour les écrans étroits (responsive) */
+  @media screen and (max-width: 768px) {
+    .nav1 {
+      display: none;
+    }
+    .btn1E2{
+        flex-wrap: wrap;
+    }
+    
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+    
+    .burger-menu.active {
+      display: block;
+    }
+    
+    .burger-links {
+      display: block;
+    }
+    .a h1{
+        font-size: 39px;
+    }
+    .b{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 200px;
+        gap: 20px;
+    }
+    .a{
+        height: 350px;
+    }
+    .AAA{
+        width: 100%;
+    }
+  }
+
+  
+
+  .tilted{
+    padding: 10px 30px;
+    transform: skewX(-30deg);
+    display: inline-block;
+    background-color: #D6FD51;
+    border: none;
+  }
+
+  
+
